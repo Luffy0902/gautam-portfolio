@@ -26,6 +26,8 @@
   --transition-fast: 0.2s cubic-bezier(0.16, 1, 0.3, 1);
   
   --navbar-height: 80px;
+  --navbar-bg: rgba(5, 5, 5, 0.7);
+  --drawer-bg: rgba(5, 5, 5, 0.95);
 }
 
 /* Light theme support (still keeps luxury feel, but swaps primary dark/light values) */
@@ -39,6 +41,8 @@
   --glass-color: rgba(0, 0, 0, 0.02);
   --glass-border: rgba(0, 0, 0, 0.06);
   --glow-color: rgba(255, 45, 45, 0.15);
+  --navbar-bg: rgba(250, 250, 250, 0.8);
+  --drawer-bg: rgba(250, 250, 250, 0.95);
 }
 
 /* Global Reset */
@@ -340,7 +344,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   right: 0;
   height: var(--navbar-height);
-  background: rgba(5, 5, 5, 0.7);
+  background: var(--navbar-bg);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-bottom: 1px solid var(--border-color);
@@ -1405,7 +1409,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-drawer {
   position: fixed;
   inset: 0;
-  background: rgba(5, 5, 5, 0.95);
+  background: var(--drawer-bg);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   z-index: 1050;
