@@ -1631,3 +1631,46 @@ h1, h2, h3, h4, h5, h6 {
   .icon-python { bottom: 0%; left: 22%; }
   .icon-docker { bottom: 38%; left: -2%; }
 }
+
+/* Additional Responsive Adjustments */
+@media (max-width: 768px) {
+  .nav-resume-btn {
+    display: none !important;
+  }
+  
+  .projects-filter-bar {
+    justify-content: center;
+  }
+
+  /* Modal Responsiveness */
+  .modal-overlay {
+    padding: 20px 12px;
+  }
+  .modal-hero-img {
+    height: 240px;
+  }
+  .modal-body {
+    padding: 24px;
+  }
+  .modal-title {
+    font-size: 1.8rem;
+  }
+  .modal-close-btn {
+    top: 16px;
+    right: 16px;
+    width: 36px;
+    height: 36px;
+  }
+
+  /* Footer Responsiveness */
+  .footer-container {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .footer-nav {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+

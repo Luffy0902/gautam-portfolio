@@ -248,7 +248,7 @@ function App() {
           </nav>
 
           <div className="nav-actions">
-            <a href={portfolioData.resumeUrl} className="btn btn-secondary" target="_blank" rel="noreferrer" style={{ padding: '10px 20px', fontSize: '0.9rem' }}>
+            <a href={portfolioData.resumeUrl} className="btn btn-secondary nav-resume-btn" target="_blank" rel="noreferrer" style={{ padding: '10px 20px', fontSize: '0.9rem' }}>
               <FileText size={16} /> Resume
             </a>
             
