@@ -604,7 +604,7 @@ function App() {
             </div>
 
             <div className="contact-form-wrap">
-              <div className="glass-card spotlight-card" style={{ padding: '48px' }}>
+              <div className="glass-card spotlight-card">
                 <form className="contact-form" onSubmit={handleFormSubmit}>
                   <div className="form-group">
                     <label htmlFor="name">Name</label>

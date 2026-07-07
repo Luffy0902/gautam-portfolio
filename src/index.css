@@ -1522,3 +1522,112 @@ h1, h2, h3, h4, h5, h6 {
     height: 280px;
   }
 }
+
+/* Responsive Improvements for Mobile and Small Viewports */
+@media (max-width: 768px) {
+  .hero {
+    padding-top: calc(var(--navbar-height) + 20px);
+    padding-bottom: 60px;
+  }
+  .hero-title {
+    font-size: 3rem;
+  }
+  .hero-desc {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+  }
+  .glass-card {
+    padding: 24px;
+  }
+  .skills-tab-btn {
+    padding: 10px 18px;
+    font-size: 0.9rem;
+  }
+  .skills-tabs-container {
+    gap: 24px;
+  }
+  .project-card {
+    padding: 20px;
+  }
+  .project-img-container {
+    height: 220px;
+    margin-bottom: 16px;
+  }
+  .project-card-title {
+    font-size: 1.4rem;
+  }
+  .timeline-card {
+    padding: 20px;
+  }
+  .timeline-role {
+    font-size: 1.2rem;
+  }
+  .timeline-company {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-title {
+    font-size: 2.4rem;
+  }
+  .hero-desc {
+    font-size: 1rem;
+  }
+  .hero-btns {
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+  }
+  .hero-btns .btn {
+    width: 100%;
+  }
+  .about-info-grid {
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
+  }
+  .contact-icon {
+    width: 48px;
+    height: 48px;
+  }
+  .contact-details p {
+    font-size: 1.1rem;
+  }
+  .back-to-top {
+    bottom: 20px;
+    right: 20px;
+    width: 44px;
+    height: 44px;
+  }
+}
+
+@media (max-width: 480px) {
+  .visuals-container {
+    width: 290px;
+    height: 290px;
+  }
+  .avatar-wrapper {
+    width: 170px;
+    height: 170px;
+    padding: 6px;
+  }
+  .ring-1 {
+    width: 230px;
+    height: 230px;
+  }
+  .ring-2 {
+    width: 280px;
+    height: 280px;
+  }
+  .floating-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 1.1rem;
+  }
+  .icon-react { top: 12%; left: 8%; }
+  .icon-next { top: 0%; right: 18%; }
+  .icon-ts { top: 40%; right: -2%; }
+  .icon-node { bottom: 12%; right: 8%; }
+  .icon-python { bottom: 0%; left: 22%; }
+  .icon-docker { bottom: 38%; left: -2%; }
+}
