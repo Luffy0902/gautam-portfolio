@@ -2,8 +2,8 @@ export const portfolioData = {
   name: "Gautam Dalal",
   title: "Full Stack Engineer",
   subtitle: "Building high-performance web, mobile, and browser extension solutions.",
-  avatar: "/images/avatar.png",
-  resumeUrl: "/GautamDalalResume.pdf",
+  avatar: "images/avatar.png",
+  resumeUrl: "GautamDalalResume.pdf",
   
   socials: {
     linkedin: "https://linkedin.com/in/gautamdalal82",
@@ -66,7 +66,7 @@ export const portfolioData = {
       category: "WordPress",
       shortDescription: "A complete multi-institution educational services portal managing registrations, student/staff portals, and digital payment gateways.",
       description: "AVPES (AVP Educational Services) is an enterprise-grade school management platform built on WordPress to coordinate administrative systems for Adarsh Vidhyapeeth and AVP Global School. The portal integrates role-based student and staff login centers, multi-school registration forms, automated fee collection systems, and dynamic query handlers. Constructed utilizing a highly responsive child theme design, custom template hooks, and direct database queries.",
-      image: "/images/project5.png",
+      image: "images/project5.png",
       tech: ["WordPress", "PHP", "MySQL", "Elementor", "OceanWP", "Razorpay / Stripe", "School Management Pro"],
       liveUrl: "http://avpes.com",
       features: [
@@ -83,7 +83,7 @@ export const portfolioData = {
       category: "Extension",
       shortDescription: "A comprehensive browser extension built with React and Fabric.js, helping YouTube creators plan, write, and optimize videos directly inside YouTube Studio.",
       description: "Engineered a TubeSpanner Browser Extension to enhance video browsing by enabling quick thumbnail customization and content interaction directly within the browser. Developed the extension using JavaScript, HTML, and CSS, integrating with browser APIs to manipulate DOM elements and provide seamless in-page editing features. Implemented performance optimizations and efficient event handling, achieving up to 25-30% faster interaction response time and improved runtime efficiency.",
-      image: "/images/project6.png",
+      image: "images/project6.png",
       tech: ["JavaScript", "HTML5 & CSS3", "Browser Extension API", "React", "webpack", "Fabric.js"],
       liveUrl: "https://www.tubespanner.com",
       features: [
@@ -100,7 +100,7 @@ export const portfolioData = {
       category: "Fullstack",
       shortDescription: "An interactive graphic design web tool built using React and Fabric.js, allowing creators to design thumbnails with layered vector canvas engines.",
       description: "Engineered a web-based application, TubeSpanner Thumbnail Editor, to streamline thumbnail creation for digital content platforms. Developed a responsive, component-based front-end using React.js, implementing drag-and-drop editing, real-time rendering, and image/text customization features. Optimized application performance through efficient state management and rendering techniques, achieving up to 30% faster load and interaction times.",
-      image: "/images/project7.png",
+      image: "images/project7.png",
       tech: ["React", "Fabric.js", "HTML5 Canvas", "JavaScript", "State Management", "UI/UX Design"],
       liveUrl: "https://www.tubespanner.com",
       features: [
@@ -117,7 +117,7 @@ export const portfolioData = {
       category: "WordPress",
       shortDescription: "A high-traffic, media-rich travel blog featuring destination guides, customized layout templates, and affiliate integrations.",
       description: "The World Travel Guy is a professional travel blog built on WordPress, utilizing the Soledad theme framework. The site features extensive destination travel guides, custom page layouts, custom fonts, automated RSS feeds, Google Tag Manager event tracking, GetYourGuide affiliate widgets, and optimized programmatic ad placements powered by Mediavine. Engineered to sustain high concurrent traffic and achieve excellent Core Web Vitals scores.",
-      image: "/images/project8.png",
+      image: "images/project8.png",
       tech: ["WordPress", "PHP", "MySQL", "Soledad Theme", "Mediavine API", "Google Analytics", "PageSpeed Optimization"],
       liveUrl: "https://theworldtravelguy.com",
       features: [
@@ -134,7 +134,7 @@ export const portfolioData = {
       category: "Mobile",
       shortDescription: "A cross-platform mobile application for menstrual cycle tracking and health awareness developed with React Native.",
       description: "Engineered Period Bear, a cross-platform mobile application for menstrual cycle tracking and health awareness, aimed at improving user engagement and accessibility to essential health insights. Developed the app using React Native, implementing features such as cycle tracking, reminders/notifications, and educational content for user awareness. Integrated efficient state management and optimized component rendering, achieving up to 25–35% improved app performance and smoother navigation across devices.",
-      image: "/images/project9.png",
+      image: "images/project9.png",
       tech: ["React Native", "JavaScript", "SQLite", "Reminders/Notifications", "State Management", "Google Play Store"],
       liveUrl: "https://google.com",
       features: [
@@ -151,7 +151,7 @@ export const portfolioData = {
       category: "Frontend",
       shortDescription: "A highly secure, 21 CFR Part 11 compliant frontend interface for medical terminology and drug clinical trial coding.",
       description: "Clinpex Frontend is a professional, high-security clinical terminology and drug coding dashboard interface built with React and TypeScript. Tailored for pharmaceutical research and clinical trials, the frontend handles complex search queries across MedDRA and WHODrug dictionaries, supports manual/auto/AI-assisted workflow transitions, and renders synonym/Do Not Code lists. Designed to satisfy strict 21 CFR Part 11 compliance standards, including full electronic records and audit trail transparency.",
-      image: "/images/project10.png",
+      image: "images/project10.png",
       tech: ["React", "TypeScript", "REST API", "Tailwind CSS", "Vite", "Jest / RTL"],
       liveUrl: "https://google.com",
       features: [
@@ -168,7 +168,7 @@ export const portfolioData = {
       category: "WordPress",
       shortDescription: "A complete custom-designed Learning Management System built on WordPress supporting student courses, quizzes, and subscriptions (Currently offline).",
       description: "eLearnX is a robust Learning Management System (LMS) designed for digital learning academies. Built on WordPress using a customized LearnDash framework, it features full-featured course creation panels, student quiz builders, certificate generation modules, and member subscription packages. Optimized with object caching and database indexing, the site supported thousands of concurrent students before going offline.",
-      image: "/images/project11.png",
+      image: "images/project11.png",
       tech: ["WordPress", "PHP", "MySQL", "LearnDash LMS", "WooCommerce", "Elementor Pro", "Redis Cache"],
       features: [
         "Dynamic course curriculum builder with interactive audio/video lesson models.",
