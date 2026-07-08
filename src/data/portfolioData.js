@@ -85,7 +85,7 @@ export const portfolioData = {
       description: "Engineered a TubeSpanner Browser Extension to enhance video browsing by enabling quick thumbnail customization and content interaction directly within the browser. Developed the extension using JavaScript, HTML, and CSS, integrating with browser APIs to manipulate DOM elements and provide seamless in-page editing features. Implemented performance optimizations and efficient event handling, achieving up to 25-30% faster interaction response time and improved runtime efficiency.",
       image: "images/project6.png",
       tech: ["JavaScript", "HTML5 & CSS3", "Browser Extension API", "React", "webpack", "Fabric.js"],
-      liveUrl: "https://www.tubespanner.com",
+      liveUrl: "https://www.tubespanner.com/browser-extensions",
       features: [
         "Engineered to enhance video browsing by enabling quick thumbnail customization and content interaction directly within the browser.",
         "Developed using JavaScript, HTML, and CSS, integrating with browser APIs to manipulate DOM elements.",
@@ -136,7 +136,7 @@ export const portfolioData = {
       description: "Engineered Period Bear, a cross-platform mobile application for menstrual cycle tracking and health awareness, aimed at improving user engagement and accessibility to essential health insights. Developed the app using React Native, implementing features such as cycle tracking, reminders/notifications, and educational content for user awareness. Integrated efficient state management and optimized component rendering, achieving up to 25–35% improved app performance and smoother navigation across devices.",
       image: "images/project9.png",
       tech: ["React Native", "JavaScript", "SQLite", "Reminders/Notifications", "State Management", "Google Play Store"],
-      liveUrl: "https://google.com",
+      liveUrl: "https://play.google.com/store/apps/details?id=com.gdutam.perodbear&hl=en_IN",
       features: [
         "Engineered for menstrual cycle tracking and health awareness, improving accessibility to essential health insights.",
         "Developed cycle tracking, reminders/notifications, and educational content.",
@@ -153,7 +153,7 @@ export const portfolioData = {
       description: "Clinpex Frontend is a professional, high-security clinical terminology and drug coding dashboard interface built with React and TypeScript. Tailored for pharmaceutical research and clinical trials, the frontend handles complex search queries across MedDRA and WHODrug dictionaries, supports manual/auto/AI-assisted workflow transitions, and renders synonym/Do Not Code lists. Designed to satisfy strict 21 CFR Part 11 compliance standards, including full electronic records and audit trail transparency.",
       image: "images/project10.png",
       tech: ["React", "TypeScript", "REST API", "Tailwind CSS", "Vite", "Jest / RTL"],
-      liveUrl: "https://google.com",
+      liveUrl: "https://www.clinpex.com/",
       features: [
         "Configurable coding flows displaying Synonym lists, Do Not Code filters, and Requires Review workflows.",
         "Advanced search panels with high-performance filters supporting MedDRA LLT, ATC level 5, and WHODrug C3 classifications.",
